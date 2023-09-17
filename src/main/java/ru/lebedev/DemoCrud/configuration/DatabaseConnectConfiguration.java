@@ -11,8 +11,8 @@ public class DatabaseConnectConfiguration {
         DriverManagerDataSource driverManagerDataSource = new DriverManagerDataSource();
         driverManagerDataSource.setDriverClassName("org.postgresql.Driver");
         driverManagerDataSource.setUrl("jdbc:postgresql://localhost:5432/psy_help_database");
-        driverManagerDataSource.setUsername("psy_admin");
-        driverManagerDataSource.setPassword("psy_admin");
+        driverManagerDataSource.setUsername("username");
+        driverManagerDataSource.setPassword("password");
         return driverManagerDataSource;
     }
 }
