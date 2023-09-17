@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      #create first table
+      file: db/changelog/changesets/001__first_changeset.sql
+  - include:
+      #insert test users in table
+      file: db/changelog/changesets/002__second_changeset.sql
